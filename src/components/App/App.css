@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+}
+
+
+.App--logo--container {
+  width: 40px;
+  height: 40px;
+  background-color: #303741;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App--logo {
+  
+  align-items: center;
+}
+
+.card {
+  width: 50%;
+  padding: 2em;
+  border-radius: 1em;
+  margin: 0 auto;
+  background-color: hsl(213, 19%, 18%);  
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.card>h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.card>span {
+  color: hsl(217, 12%, 63%);  
+}
+
+.card--qualification {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+  cursor: pointer;
+}
+
+.card--qualification--value{
+  background-color: #303741;
+  color: hsl(0, 0%, 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid hsl(216, 12%, 54%); */
+}
+.card--qualification--value:hover {
+  background-color: hsl(25, 97%, 53%) !important;
+}
+
+.card--button {
+  background-color: hsl(25, 97%, 53%);
+  color: #FDE2B5;
+  width: 100%;
+  border-radius: 1em;
+  border: none;
+}
+
+.card--button:hover {
+  cursor: pointer;
+  background-color: #FDE2B5;
+  color: hsl(25, 97%, 53%);
+}
