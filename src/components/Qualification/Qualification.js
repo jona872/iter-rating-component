@@ -3,7 +3,7 @@ import './Qualification.css';
 
 export default function Qualification(props) {
   const styles = {
-    backgroundColor: props.holded ? "hsl(217, 12%, 63%)" : "#1B222C"
+    backgroundColor: props.holded ? "hsl(217, 12%, 63%)" : "hsl(216, 12%, 24%)"
   }
 
   return (
