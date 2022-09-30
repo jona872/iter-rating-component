@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
 * {
   box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
 }
+
 body {
   font-size: 15px;
   background-color: hsl(216, 12%, 8%);
@@ -8,8 +13,8 @@ body {
 
 
 .App--logo--container {
-  width: 40px;
-  height: 40px;
+  width: 2.86em;
+  height: 2.86em;
   background-color: #303741;
   border-radius: 50%;
   display: flex;
@@ -18,48 +23,56 @@ body {
 }
 
 .App--logo {
-  
   align-items: center;
+  height: 30%;
 }
 
 .card {
-  width: 50%;
-  padding: 2em;
-  border-radius: 1em;
-  margin: 0 auto;
-  background-color: hsl(213, 19%, 18%);  
+  width: 21.8em;
+  height: 24em;
+  padding: 1.5em;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 1.67em;
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  align-items: flex-start;
 }
 
 .card>h1 {
   color: hsl(0, 0%, 100%);
+  margin: 0;
+  padding: 20px 24px 10px 0;
+  font-size: 1.5em;
 }
 
 .card>span {
-  color: hsl(217, 12%, 63%);  
+  color: hsl(217, 12%, 63%);
+  padding-bottom: 2em;
+  font-size: 13px;
+  line-height: 20px;
 }
 
 .card--qualification {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 1em;
+  gap: 1.13em;
   cursor: pointer;
+  padding-bottom: 1.4em;
 }
 
-.card--qualification--value{
+.card--qualification--value {
   background-color: #303741;
   color: hsl(0, 0%, 100%);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 2.86em;
+  height: 2.86em;
   /* border: 1px solid hsl(216, 12%, 54%); */
 }
+
 .card--qualification--value:hover {
   background-color: hsl(25, 97%, 53%) !important;
 }
@@ -68,12 +81,54 @@ body {
   background-color: hsl(25, 97%, 53%);
   color: #FDE2B5;
   width: 100%;
-  border-radius: 1em;
+  height: 3em;
+  border-radius: 1.5em;
   border: none;
 }
 
 .card--button:hover {
   cursor: pointer;
-  background-color: #FDE2B5;
+  background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
+}
+
+
+.result {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 30px 25px 46px 27px; */
+  padding: 7.5px 0 23.5px 0;
+  text-align: center;
+}
+
+.result > img {
+  width: 50%;
+  height: 50%;
+}
+
+
+.result--select {
+  background-color: #20282f;
+  border-radius: 20px;
+  color: hsl(25, 97%, 53%);
+  margin-top: 25px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+
+.result>h1 {
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+  padding: 28px 0 15px 0;
+  font-size: 1.5em;
+}
+
+.result>span {
+  color: hsl(217, 12%, 63%);
+  font-size: 13px;
+  line-height: 20px;
 }
