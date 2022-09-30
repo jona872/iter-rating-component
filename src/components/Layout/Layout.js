@@ -1,8 +1,8 @@
 
 export default function Layout({ children }) {
     return (
-        <div className="card">
+        <main className="card">
             {children}
-        </div>
+        </main>
     )
 }
