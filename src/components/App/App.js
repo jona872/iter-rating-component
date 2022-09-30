@@ -21,7 +21,6 @@ function App() {
   function handleSubmit(e) {
     e.preventDefault();
     setSubmited(true);
-    console.log(selectedId);
 
   }
 

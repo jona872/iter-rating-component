@@ -2,9 +2,6 @@ import React from 'react'
 import l2 from '../../assets/images/icon-star.svg';
 
 export default function Card(props) {
-  console.log("card props");
-  console.log(props);
-
 
   return (
     <>
